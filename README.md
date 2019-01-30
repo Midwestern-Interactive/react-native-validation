@@ -2,10 +2,7 @@ React Native Validation
 ======
 **Promise-based validation for React Native**
 
-
-<a href="https://npmcharts.com/compare/labile?minimal=true"><img src="https://img.shields.io/npm/dw/labile.svg" alt="Downloads"></a>
-<a href="https://www.npmjs.com/package/labile"><img src="https://img.shields.io/npm/v/labile.svg" alt="Version"></a>
-<a href="https://www.npmjs.com/package/labile"><img src="https://img.shields.io/npm/l/labile.svg" alt="License"></a>
+This package is not ready to be released, currently a WIP, so feel free to contribute.
 
 #### Introduction
 React Native Validation allows for quick and seamless validation out of the box. We designed the package based on [Laravel's Validation]((https://laravel.com/docs/5.7/validation)) and works almost interchangeably.
