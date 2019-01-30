@@ -1,8 +1,8 @@
 React Native Validation
 ======
-**Promise-based validation for React Native**
+*This package is not ready to be released, currently a WIP, so feel free to contribute.*
 
-This package is not ready to be released, currently a WIP, so feel free to contribute.
+**Promise-based validation for React Native**
 
 #### Introduction
 React Native Validation allows for quick and seamless validation out of the box. We designed the package based on [Laravel's Validation]((https://laravel.com/docs/5.7/validation)) and works almost interchangeably.
