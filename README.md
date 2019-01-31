@@ -57,7 +57,7 @@ Validator.validate(this.state.form)
 | required | forces the field to be required|
 | min:val | forces the field length to be longer than the value |
 | max:val | forces the field to be shorter than the value|
-| required | forces the field to be required|
+| required | forces the field to be required| 
 
 ### Making your own rules
 **note: your method should return a boolean which represents whether or not the validation succeeded**
