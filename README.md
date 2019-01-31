@@ -68,7 +68,7 @@ const Validator = new Validation({
 
 Validator.extendRules({
   ruleName: 'matchExample',
-  method: (val, val2) => {
+  method: (fieldName, val, val2) => {
       return val === 'example' || val === val2
   },
   errorMessage: {
