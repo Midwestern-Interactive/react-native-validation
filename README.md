@@ -24,7 +24,7 @@ $ npm i @midwestern/react-native-validation
 Importing React Native Validation into your components
 
 ```
-import Validation from 'mwi-react-native-validation'
+import Validation from '@midwestern/react-native-validation'
 ```
 
 ## Usage
