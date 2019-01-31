@@ -1,6 +1,6 @@
 React Native Validation
 ======
-*This package is not ready to be released, currently a WIP, so feel free to contribute.*
+*This package is currently a WIP, so feel free to contribute.*
 
 **Promise-based validation for React Native**
 
@@ -18,7 +18,7 @@ React Native Validation allows for quick and seamless validation out of the box.
 Install React Native Validation through NPM
 
 ```
-$ npm i mwi-react-native-validation
+$ npm i @midwestern/react-native-validation
 ```
 
 Importing React Native Validation into your components
