@@ -1,10 +1,12 @@
 export class DefaultRules {
   sometimes (fieldName, value) {
-    return fieldName !== undefined
+    if (this.dataset[fieldName] !== undefined) {
+      return true
+    }
   }
 
   required (fieldName, value) {
-    return value !== undefined && value.length > 0
+    return value !== undefined && value !== null && (value > 0 || value.length > 0)
   }
 
   alpha (fieldName, value) {
@@ -90,11 +92,13 @@ export class DefaultRules {
   }
 
   filled (fieldName, value) {
-    return true
+    if (this.dataset[fieldName] !== undefined) {
+      return value !== undefined && value.length > 0
+    }
   }
 
   present (fieldName, value) {
-    return true
+    return this.dataset[fieldName] !== undefined
   }
 
   gt (fieldName, value, otherFieldName) {

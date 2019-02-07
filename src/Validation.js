@@ -9,7 +9,7 @@ export class Validation {
 
   extendRules (ruleObject) {
     if (ruleObject.hasOwnProperty('ruleName') && ruleObject.hasOwnProperty('method') && ruleObject.hasOwnProperty('ruleName')) {
-      Rules.prototype[ruleObject.ruleName] = ruleObject.method
+      ValidationRules.prototype[ruleObject.ruleName] = ruleObject.method
 
       if (typeof ruleObject.errorMessage === 'object') {
         this.errorHandler.patchLanguages(ruleObject.ruleName, ruleObject.errorMessage)
