@@ -1,5 +1,8 @@
 React Native Validation
 ======
+![](https://img.shields.io/npm/dw/@midwestern/react-native-validation.svg?style=flat) ![](https://img.shields.io/npm/v/@midwestern/react-native-validation.svg?style=flat) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+ 
 *This package is currently a WIP, so feel free to contribute.*
 
 **Promise-based validation for React Native**
@@ -45,6 +48,7 @@ Validator.validate(this.state.form)
   .catch(errors => {
     this.setState(state => {
       state.errors = errors
+      
 
       return state
     })
