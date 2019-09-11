@@ -33,7 +33,7 @@ export class Validation {
     return new Promise((resolve, reject) => {
       let errors = {}
 
-      validationRules = new ValidationRules(this.rules, fields)
+      const validationRules = new ValidationRules(this.rules, fields)
 
       for (let field of Object.keys(this.rules)) {
         for (let ruleStatement of this.rules[field].split('|')) {
