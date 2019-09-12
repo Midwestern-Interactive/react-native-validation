@@ -3,7 +3,7 @@ React Native Validation
 ![](https://img.shields.io/npm/dw/@midwestern/react-native-validation.svg?style=flat) ![](https://img.shields.io/npm/v/@midwestern/react-native-validation.svg?style=flat) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
  
-*This package is currently a WIP, so feel free to contribute.*
+*About to overhaul this package due to new demand.*
 
 **Promise-based validation for React Native**
 
