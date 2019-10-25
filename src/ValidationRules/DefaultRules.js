@@ -10,15 +10,15 @@ export class DefaultRules {
   }
 
   alpha (fieldName, value) {
-    return value.match(/^[a-z ]+$/i) !== null
+    return value.match(/^[\ a-z]+$/i) !== null
   }
 
   alpha_dash (fieldName, value) {
-    return value.match(/^[a-z_- ]+$/i) !== null
+    return value.match(/^[a-z_-]+$/i) !== null
   }
 
   alpha_num (fieldName, value) {
-    return value.match(/^[a-z0-9 ]+$/i) !== null
+    return value.match(/^[a-z\ 0-9]+$/i) !== null
   }
 
   email (fieldName, value) {
