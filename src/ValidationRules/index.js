@@ -1,10 +1,11 @@
 import { DefaultRules } from './DefaultRules'
 
 export class ValidationRules extends DefaultRules {
-  constructor (dataset = {}) {
+  constructor (dataset = {}, fields = {}) {
     super()
 
     this.dataset = dataset
+    this.fields = fields
   }
 
   call (rule) {
