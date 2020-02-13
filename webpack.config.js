@@ -1,10 +1,12 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
-  entry: './index.js',
+  devtool: 'eval-source',
+  entry: './webpack.index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'rn-validation.min.js',
+    library: 'Validation'
   },
   module: {
     rules: [
@@ -20,4 +22,4 @@ module.exports = {
       }
     ]
   }
-};
+}
